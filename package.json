@@ -17,5 +17,11 @@
   "dependencies": {
     "animejs": "^3.2.1",
     "underscore": "^1.13.6"
+  },
+  "parcel": {
+    "entries": {
+      "index": "./src/index.html",
+      "game": "./src/html/game.html"
+    }
   }
 }
